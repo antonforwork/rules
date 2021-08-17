@@ -1,0 +1,21 @@
+{
+    "name": "antonforwork/rules",
+    "description": "Business rules",
+    "authors": [
+        {
+            "name": "anton",
+            "email": "me@anton.in.ua"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": { "Rules\\": "src/" }
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.18",
+        "phpstan/phpstan": "^0.12.71",
+        "phpunit/phpunit": "7.0"
+    }
+}
